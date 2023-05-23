@@ -1,0 +1,31 @@
+Rev B Changes
+-------------
+
+- Added 4k7 pull-up resistor to /NMI line
+- Added Ground test points around the board
+- Corrected reversed CTS/RTS lines on FTDI connector
+- Added silkscreen info for I/O slots
+- Connected missing Vcc/GND for U12
+- Added C29 to eliminate noise on reset line
+- Fixed keyboard interrupt generator circuit
+- Added new silkscreen logo
+- Replaced barrel jack with 4-pin power connector
+- Removed on-board power switch, power should be controlled externally now
+- Removed CompactFlash interface
+- Corrected polarity of C22 between MAX232 VS- and GND
+- Added pin header for external reset switch
+- Corrected polarity of C23 between MAX232 VS+ and +5v
+- Added DS12885+ Real-time clock module with NVRAM, external battery, speaker
+
+
+Rev C Changes
+-------------
+
+- Removed TTL level serial connection
+- Added pull-up resistors to keyboard clock/data lines
+- Changed PS2 Keyboard connector to JST-XH to avoid incorrect connections
+- Added solder anchor point to 32kHz crystal
+- Moved BUSRQ and BUSACK pins on 50-pin slot to make room for key insert at position 16
+- Some rerouted/simplified traces
+- Changed /INTACK line in keyboard controller to /RD to fix interrupt reset circuit
+- Corrected resistor values in keyboard controller
