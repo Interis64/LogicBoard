@@ -4,6 +4,11 @@
 
   (paper "A")
 
+  (title_block
+    (date "2023-06-06")
+    (rev "C")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_02x15_Row_Letter_First" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 1.27 20.32 0)
@@ -1115,7 +1120,7 @@
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid dd357154-4ea4-47bc-ba2c-99e6930fd4e5)
   )
-  (text "DMA Slot 4\nIO Addresses\n$80-$9F" (at 41.275 160.02 0)
+  (text "Slot 4\nIO Addresses\n$80-$9F" (at 41.275 160.02 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid ec1b8766-4bb9-4c18-9f73-772e346c9160)
   )
