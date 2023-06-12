@@ -1760,7 +1760,7 @@
     (property "Value" "DB9_Male" (at 233.807 99.568 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" (at 229.235 98.425 0)
+    (property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" (at 229.235 98.425 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (at 229.235 98.425 0)
