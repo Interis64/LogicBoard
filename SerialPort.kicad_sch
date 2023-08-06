@@ -1815,7 +1815,7 @@
     (property "Reference" "U19" (at 78.8544 158.8602 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "74LS92" (at 78.8544 161.3971 0)
+    (property "Value" "74HCT92" (at 78.8544 161.3971 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads" (at 76.835 170.18 0)

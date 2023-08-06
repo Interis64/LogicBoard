@@ -29,3 +29,8 @@ Rev C Changes
 - Some rerouted/simplified traces
 - Changed /INTACK line in keyboard controller to /RD to fix interrupt reset circuit
 - Corrected resistor values in keyboard controller
+- Added /RFSH signal to 50-pin slot
+- Consolidated ceramic cap values to 0.1µF, adjusted other components as necessary
+- Changed test points to wire-loop type
+- Rearranged RESET circuit components
+- Moved 10µF power cap near to main power connector
