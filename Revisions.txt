@@ -34,3 +34,13 @@ Rev C Changes
 - Changed test points to wire-loop type
 - Rearranged RESET circuit components
 - Moved 10µF power cap near to main power connector
+- Added power lines to reset switch header for front-panel power LED
+- Changed memory expansion jumper to upper 32K
+- Added GitHub URL
+- Added open-source hardware logo
+- Moved baud rate jumper next to serial port connector
+- Major overhaul of I/O bus
+  - All slots are now identical and full-featured
+  - IO Port select logic must now be implemented by expansion cards
+  - Card slot spacing reduced to 0.8" on center
+  - Fifth expansion slot added to board

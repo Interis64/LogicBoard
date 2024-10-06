@@ -174,12 +174,22 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.4,
+        1.0
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
+        },
+        {
+          "diameter": 1.5,
+          "drill": 0.8
         }
       ],
       "zones_allow_external_fillets": false,
@@ -461,6 +471,14 @@
       {
         "netclass": "Power",
         "pattern": "GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+12V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "-12V"
       }
     ]
   },
@@ -471,7 +489,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "",
-      "vrml": ""
+      "vrml": "../../Interis/Case/BoardModel/Interis 64.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -533,8 +551,12 @@
       "I/O Controller"
     ],
     [
-      "00000000-0000-0000-0000-000061d698e4",
-      "PS2 Keyboard"
+      "58aeee1b-6523-4140-98c9-371e6047b257",
+      "Realtime Clock"
+    ],
+    [
+      "4eeb1bb0-4baa-44e5-b808-b0d99be8da49",
+      "VT82C42 Input"
     ],
     [
       "00000000-0000-0000-0000-0000624f8119",
@@ -543,10 +565,6 @@
     [
       "00000000-0000-0000-0000-000062683692",
       "Slots"
-    ],
-    [
-      "58aeee1b-6523-4140-98c9-371e6047b257",
-      "Realtime Clock"
     ],
     [
       "00000000-0000-0000-0000-000062c2416e",
